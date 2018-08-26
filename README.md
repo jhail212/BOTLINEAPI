@@ -1,3 +1,5 @@
+# SEMUA AKAN MATI PADA WAKTUNYA
+
 ## Deploy to Heroku
 #Ganti token dan chanel screet mu! di file app.py
 ```python
