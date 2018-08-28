@@ -80,15 +80,15 @@ def handle_message(event):
                 actions=[
                     MessageTemplateAction(
                         label='Culum 1',
-                        text='/aditmadzs'
+                        text='/CalonAlmarhum'
                     ),
                     MessageTemplateAction(
                         label='CULUM 2',
-                        text='/aditmadzs'
+                        text='/CalonAlmarhum'
                     ),
                     MessageTemplateAction(
                         label='CULUM 3',
-                        text='/aditmadzs'
+                        text='/CalonAlmarhum'
                     )
                 ]
             )
@@ -103,11 +103,11 @@ def handle_message(event):
                 columns=[
                     CarouselColumn(
                         title='ADD ME',
-                        text='Contact Aditmadzs',
+                        text='Contact Ku',
                         actions=[
                             URITemplateAction(
                                 label='>TAP HERE<',
-                                uri='https://line.me/ti/p/~adit_cmct'
+                                uri='https://line.me/ti/p/~calon_almarhum99'
                             )
                         ]
                     ),
@@ -117,7 +117,7 @@ def handle_message(event):
                         actions=[
                             URITemplateAction(
                                 label='>TAP HERE!<',
-                                uri='http://line.me/ti/p/~adit_cmct'
+                                uri='http://line.me/ti/p/~calon_almarhum99'
                             )
                         ]
                     )
@@ -134,13 +134,13 @@ def handle_message(event):
                 size='full',
                 aspect_ratio='20:13',
                 aspect_mode='cover',
-                action=URIAction(uri='http://line.me/ti/p/~adit_cmct', label='label')
+                action=URIAction(uri='http://line.me/ti/p/~calon_almarhum99', label='label')
             ),
             body=BoxComponent(
                 layout='vertical',
                 contents=[
                     # title
-                    TextComponent(text='Aditmadzs', weight='bold', size='xl'),
+                    TextComponent(text='CalonAlmarhum', weight='bold', size='xl'),
                     # review
                     BoxComponent(
                         layout='baseline',
@@ -172,7 +172,7 @@ def handle_message(event):
                                         flex=1
                                     ),
                                     TextComponent(
-                                        text='Tangerang, Indonesia',
+                                        text='Bandar Lampung, Indonesia',
                                         wrap=True,
                                         color='#666666',
                                         size='sm',
@@ -213,7 +213,7 @@ def handle_message(event):
                     ButtonComponent(
                         style='link',
                         height='sm',
-                        action=URIAction(label='Aditmadzs', uri="https://line.me/ti/p/~adit_cmct")
+                        action=URIAction(label='CalonAlmarhum', uri="https://line.me/ti/p/~calon_almarhum99")
                     )
                 ]
             ),
