@@ -41,7 +41,7 @@ git add .
 ```
 13. Lalu commit
 ```shell
-git commit -m "Aditmadzs"
+git commit -m "PHIEZUKE"
 ```
 14. Push ke heroku
 ```shell
